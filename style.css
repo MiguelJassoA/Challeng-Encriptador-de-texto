@@ -1,8 +1,125 @@
+body{
+    font-family: "Titillium Web", sans-serif;
+}
+  
+.cajadeencabezado{
+width: auto;
+background-image: url(imagenes/fondo-blanco.jpg);
+}
+.imagenlogo{
+    width: 25%;
+    height: 100%;
+  border-radius: 3em 3em;
+  padding: 2em 0 1em 6em;
+  display: inline-block;
+}
 
-header h1{
+.parrafobienvenida{
     text-align: center;
-    font-size: 3em;
-    margin: 1em;
-    background: rgb(15, 126, 163);
+    font-size: 2em;
     padding: 1em;
 }
+.parrafobienvenida{
+background: #E2E4E7;
+}
+.cuerpo{
+    background: linear-gradient(#E2E4E7, #FFFFFF );
+    width: 100%;
+    display: inline-block;
+}
+
+.encriptador{
+    display: inline-block;
+    width: 50%;
+    padding-left: 4em;
+    
+}
+#encriptador{
+    width: 75%;
+    height: 32em;
+    border-radius: 20px;
+    background-image: url(imagenes/lupa.png);
+    background-position: center;
+    background-size: calc(20%);
+    background-repeat: no-repeat;
+}
+#encriptado{
+    width: 75%;
+    height: 32em;
+    border-radius: 20px;
+    background-image: url(imagenes/Encriptado.png);
+    background-position: center;
+    background-size: calc(24%);
+    background-repeat: no-repeat;
+}
+
+.encriptado{
+    display: inline-block;
+    width: 40%;
+}
+.imageninstrucciones{
+    width: 20%;
+    height: 10%;
+    padding: 1em 0 0 5em;
+}
+.botones{
+    padding: 2em;
+    width: 100%;
+}
+.boton{
+    margin: 1em;
+    padding: 1em 3em 1em 3em;
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #518AB7;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+   
+}
+
+.boton:hover{
+    background: #3D962A;
+    transform: scale(1.1);
+    color: black;
+}
+.footer{
+    background: linear-gradient(#FFFFFF, #A4B4C1 );
+}
+.datosfooter{
+    
+    color: black;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+}
+.copy{
+    color: black;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*
+para aplicar a telefonos
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapacontenido, .contenidodiferenciales, .video {
+        width: auto;
+    }
+    .listadiferenciales, .imagendiferenciales{
+        width: 100%;
+    }
+}
+*/
